@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function loan_application()
+    public function view_loan_application()
     {
         return view('admin.loan_application');
     }
 
-}
+};
