@@ -2,7 +2,7 @@
 <html>
 
 <head>
-@include('home.css')
+{{-- @include('home.css') --}}
 </head>
 
 <body>

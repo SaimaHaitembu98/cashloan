@@ -1,216 +1,108 @@
- <section class="shop_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Latest Products
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p1.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $200
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Watch
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $300
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Teddy Bear
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $110
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p4.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Flower Bouquet
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $45
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p5.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Teddy Bear
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $95
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p6.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Flower Bouquet
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $70
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p7.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Watch
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $400
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p8.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $450
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View All Products
-        </a>
-      </div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    @include('home.css')
+</head>
+
+<body>
+    <div class="hero_area">
+        <!-- header section strats -->
+
+        <!-- end header section -->
+        <!-- slider section -->
+        <style>
+            .Maintitle {
+                font-size: 20px;
+                text-align: center;
+                margin-top: 0;
+                font-family: Roboto;
+                font-weight: 500;
+            }
+        </style>
+
+
+        <x-guest-layout>
+            <form name="Applyform" class="Applyform" method="POST" action="{{ route('register') }} " id="">
+                @csrf
+                <div class="row">
+
+
+
+                    <div class="ApplyNow" id="apply-now">
+                        <h2 class="Maintittle">Apply Now</h2>
+                        <p class="Note">Please submit the following information and one of our agents will get in
+                            touch with you as soon as possible.</p>
+
+                    </div>
+                    <div class="col-xs-12 col-md-5 paddingApply">
+                        <input id="name" name="name" class="form-control" placeholder="Name" type="text">
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <input id="surname" name="surname" class="form-control" placeholder="Surname" type="text">
+                    </div>
+
+                    <div class="col-xs-12 col-md-5 paddingApply">
+                        <input id="loan" name="loan" class="form-control" placeholder="Loan Amount"
+                            type="text">
+                    </div>
+
+                    <div class="col-xs-12 col-md-7">
+                        <input id="months" name="months" class="form-control"
+                            placeholder="Installments (1 / 3 Months)" type="text">
+                    </div>
+                    <div class="col-xs-12 col-md-5 paddingApply">
+                        <input id="nationality" name="nationality" class="form-control" placeholder="Nationality"
+                            type="text" value="">
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <input id="id" name="id" class="form-control" placeholder="ID / Passport nr">
+                    </div>
+                    <div class="col-xs-12 col-md-5 paddingApply">
+                        <input id="phone" name="phone" class="form-control" placeholder="Cellphone"
+                            type="text">
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <input id="email" name="email" class="form-control" placeholder="Email" type="text">
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <label for="bankStatements">Upload: 3 Month's Bank Statements</label>
+                        <input type="file" id="bankStatements" name="bankStatements" class="form-control"
+                            accept=".pdf, .jpg, .jpeg, .png">
+                    </div>
+
+                    <div class="col-xs-12 col-md-12">
+                        <label for="idOrPassportCopy">Upload: Photocopy of ID or Passport</label>
+                        <input type="file" id="idOrPassportCopy" name="idOrPassportCopy" class="form-control"
+                            accept=".pdf, .jpg, .jpeg, .png">
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <label for="payslip">Upload: Payslip</label>
+                        <input type="file" id="payslip" name="payslip" class="form-control"
+                            accept=".pdf, .jpg, .jpeg, .png">
+                    </div>
+
+                    <div class="col-xs-12 text-center">
+                        <button class="Submit" type="submit" id="submit">Submit</button>
+                    </div>
+                </div>
+
     </div>
-  </section>
+    </form>
+    </x-guest-layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

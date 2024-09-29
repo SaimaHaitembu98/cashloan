@@ -7,10 +7,10 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/logo-two.png" type="image/x-icon">
 
   <title>
-    soliddesert Cashloan
+    Solid Desert Cashloan
   </title>
 
   <!-- slider stylesheet -->
@@ -21,5 +21,30 @@
 
   <!-- Custom styles for this template -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+  <style>
+    .hero_area {
+
+
+   margin: 0;
+    padding: 0;
+    }
+    .header_section{
+       /* margin-top: -24px;*/
+    }
+
+
+    #navbarSupportedContent
+    .navbar-nav .nav-link {
+    position: relative;
+    display: block;
+    text-transform: capitalize;
+     margin-top: 20px;
+}
+
+
+
+  </style>
+
+
   <!-- responsive style -->
   <link href="{{ asset('css/responsive.css') }}" rel="stylesheet" />

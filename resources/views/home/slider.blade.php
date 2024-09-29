@@ -1,6 +1,9 @@
   <section class="slider_section">
       <div class="slider_container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> --}}
+        <div id="carouselExampleIndicators" >
+
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="container-fluid">
@@ -8,11 +11,11 @@
                   <div class="col-md-7">
                     <div class="detail-box">
                       <h1>
-                        Welcome To SolidDesert <br>
-                        Cashloan
+                        Welcome To Solid <br>
+                        Desert Cash Loan
                       </h1>
                       <p>
-                        Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
+                    Solid desert cash Loan can help you meet your short-term commitments whether it be settling school fees, customary obligations, fixing your car or simply having extra cash to fill a gap in your finances.
                       </p>
                       <a href="">
                         Contact Us
@@ -21,7 +24,7 @@
                   </div>
                   <div class="col-md-5 ">
                     <div class="img-box">
-                      <img style="width:600px" src="images/image3.jpeg" alt="" />
+                      <img style="width:600px" height="500px"  src="images/login1.png" alt="" />
                     </div>
                   </div>
                 </div>
